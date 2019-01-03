@@ -4,7 +4,10 @@
   "version": "4.0.0",
   "files": [
     "lib/main",
-    "src/main",
+    "lib/demo",
+    "lib/test",
+    "src",
+    "tsconfig.json",
     "readme.md",
     "LEGAL.txt",
     "CHANGELOG.txt",
@@ -15,22 +18,24 @@
     "url": "https://github.com/ephox/snooker"
   },
   "dependencies": {
-    "@ephox/dragster": "*",
-    "@ephox/echo": "*",
-    "@ephox/katamari": "*",
-    "@ephox/porkbun": "*",
-    "@ephox/robin": "*",
-    "@ephox/sugar": "*"
+    "@ephox/agar": "latest",
+    "@ephox/dom-globals": "latest",
+    "@ephox/dragster": "latest",
+    "@ephox/echo": "latest",
+    "@ephox/katamari": "latest",
+    "@ephox/porkbun": "latest",
+    "@ephox/robin": "latest",
+    "@ephox/sugar": "latest"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@ephox/bedrock": "*",
-    "@ephox/sand": "*",
+    "@ephox/bedrock": "latest",
+    "@ephox/sand": "latest",
     "awesome-typescript-loader": "^3.4.1",
     "source-map-loader": "^0.2.3",
-    "typescript": "^2.6.2"
+    "typescript": "^3.0.1"
   },
   "author": "Ephox Corporation",
   "license": "Apache-2.0",
